@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32081" started-at="2022-01-15T11:54:49Z" finished-at="2022-01-15T11:55:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32081" started-at="2022-01-15T11:54:49Z" finished-at="2022-01-15T11:55:21Z">
+      <class name="com.test.LoginValidation">
+        <test-method status="PASS" signature="lunchbrowser()[pri:0, instance:com.test.LoginValidation@4439f31e]" name="lunchbrowser" is-config="true" duration-ms="3209" started-at="2022-01-15T17:24:49Z" finished-at="2022-01-15T17:24:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:com.test.LoginValidation@4439f31e]" name="enterURL" is-config="true" duration-ms="8797" started-at="2022-01-15T17:24:53Z" finished-at="2022-01-15T17:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String)[pri:0, instance:com.test.LoginValidation@4439f31e]" name="verifyLogin" duration-ms="5255" started-at="2022-01-15T17:25:02Z" data-provider="loginCredential" finished-at="2022-01-15T17:25:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pratyush@fnf.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:com.test.LoginValidation@4439f31e]" name="enterURL" is-config="true" duration-ms="1935" started-at="2022-01-15T17:25:07Z" finished-at="2022-01-15T17:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String)[pri:0, instance:com.test.LoginValidation@4439f31e]" name="verifyLogin" duration-ms="5206" started-at="2022-01-15T17:25:09Z" data-provider="loginCredential" finished-at="2022-01-15T17:25:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chandan@fnf.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:com.test.LoginValidation@4439f31e]" name="enterURL" is-config="true" duration-ms="933" started-at="2022-01-15T17:25:15Z" finished-at="2022-01-15T17:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String)[pri:0, instance:com.test.LoginValidation@4439f31e]" name="verifyLogin" duration-ms="5218" started-at="2022-01-15T17:25:15Z" data-provider="loginCredential" finished-at="2022-01-15T17:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[googly@fnf.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.LoginValidation@4439f31e]" name="closeBrowser" is-config="true" duration-ms="824" started-at="2022-01-15T17:25:21Z" finished-at="2022-01-15T17:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.test.LoginValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
